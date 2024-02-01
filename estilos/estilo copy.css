@@ -154,7 +154,8 @@ body {
         flex-direction: column-reverse;
         align-items: center;
         padding: 5%;
-    
+        width: 100vw;
+        
     }
 
     .apresentacao__textos__titulo {
