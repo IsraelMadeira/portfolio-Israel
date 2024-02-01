@@ -183,6 +183,6 @@ body {
     }
 
     .rodape{
-        width: calc(100vw - 10px);
+        width: calc(100vw - 20px);
     }
 }
