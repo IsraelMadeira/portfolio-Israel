@@ -143,10 +143,7 @@ body {
 
     .cabecalho{
      padding: 10%;
-     width: calc(90vw - 10px);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+     
     }
 
     .cabecalho__menu {
@@ -157,7 +154,7 @@ body {
     .apresentacao{
         flex-direction: column-reverse;
         align-items: center;
-        padding: 5%;
+        padding: 2px;
         width: 100vw;
         
     }
@@ -183,6 +180,6 @@ body {
     }
 
     .rodape{
-        width: calc(100vw - 20px);
+        width: 100vw;
     }
 }
