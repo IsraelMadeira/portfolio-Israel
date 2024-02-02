@@ -139,6 +139,29 @@ body {
 
 }
 
+/* Esses estilos são referentes aos certificados*/
+
+.lgpd {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 330px;
+    }
+
+.ehe {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 330px;
+}
+
+.ONE {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height:330px;
+}
+
 @media (max-width:800px){
 
     .cabecalho{
