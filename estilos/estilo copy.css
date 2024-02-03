@@ -146,20 +146,26 @@ body {
     flex-direction: column;
     width: 330px;
     height: 330px;
-    }
+
+}
 
 .ehe {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 330px;
     height: 330px;
 }
 
 .ONE {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 330px;
     height:330px;
+}
+
+.divcertmae {
+    display:flex;
+
 }
 
 @media (max-width:800px){
