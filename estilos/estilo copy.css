@@ -20,10 +20,14 @@
 .cabecalho {
     padding: 15px;
     width: 100vw;
+    
 }
+
 
 .cabecalho__menu {
     display: flex;
+    text-align: center;
+    justify-content: center;
     gap: 80px;
 
 }
@@ -87,6 +91,11 @@
     justify-content: space-around;
     gap: 25px;
     color: var(--cor-secundaria);
+}
+
+.fa-brands{
+    color: red;
+    font-size: 30px;
 }
 
 .apresentacao__links__link {
