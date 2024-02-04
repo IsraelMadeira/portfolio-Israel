@@ -134,8 +134,9 @@
     color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
+    width: 100vw;
     
 
 }
