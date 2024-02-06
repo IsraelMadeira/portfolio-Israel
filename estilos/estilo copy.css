@@ -151,6 +151,12 @@
 }
 
 /* Esses estilos são referentes aos certificados*/
+.divcertmae {
+    display:flex;
+    justify-items: left;
+    flex-direction: column;
+
+}
 
 .lgpd {
     display: flex;
@@ -181,10 +187,7 @@
     height:330px;
 }
 
-.divcertmae {
-    display:flex;
 
-}
 
 @media (max-width:800px){
 

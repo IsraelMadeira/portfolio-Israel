@@ -46,6 +46,7 @@ body {
   cursor: pointer;
   box-sizing: border-box;
   color: #000;
+  
 }
 
 .card h2 {
@@ -108,3 +109,4 @@ body {
 .arrow-btn-next svg {
   transform: translate(-40%, -50%);
 }
+
