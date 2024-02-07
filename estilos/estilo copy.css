@@ -154,7 +154,9 @@
 .divcertmae {
     display:flex;
     justify-items: left;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }
 
@@ -163,6 +165,7 @@
     flex-direction: column;
     width: 330px;
     height: 330px;
+    justify-content: center;
 
 }
 
@@ -171,6 +174,7 @@
     flex-direction:column;
     width: 330px;
     height: 330px;
+    justify-content: center;
 }
 
 .ONE {
@@ -178,11 +182,13 @@
     flex-direction:column;
     width: 330px;
     height:330px;
+    justify-content: center;
 }
 
 .googlecyber{
     display: flex;
     flex-direction:column;
+    justify-content: center;
     width: 330px;
     height:330px;
 }
