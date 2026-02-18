@@ -93,3 +93,5 @@ function moveCards(dur=0){
       opacity:(i)=>(i==currentCard)?1:0,
     }, 0)
 }
+
+console.log("Portfolio loaded");
