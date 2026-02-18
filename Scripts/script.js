@@ -1,3 +1,15 @@
+// Scroll suave para links internos
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const targetId = this.getAttribute('href').substring(1);
+    const target = document.getElementById(targetId);
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+
 const arrowBtns = document.querySelectorAll('.arrow-btn')
 const cardBtns = document.querySelectorAll('.card')
 let currentCard = 2;
