@@ -1,12 +1,21 @@
-// Scroll suave para links internos
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
-    const targetId = this.getAttribute('href').substring(1);
-    const target = document.getElementById(targetId);
+
+    const targetId = this.getAttribute('href');
+
+    if(targetId === "#") return;
+
+    const target = document.querySelector(targetId);
+
     if (target) {
       e.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth' });
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
     }
+
   });
 });
 
@@ -95,3 +104,5 @@ function moveCards(dur=0){
 }
 
 console.log("Portfolio loaded");
+
+
